@@ -51,7 +51,7 @@
 import axios from 'axios';
 
 export default {
-  name: 'Movies',
+  name: 'MoviesComponent',
   data() {
     return {
       currentView: 'search',
