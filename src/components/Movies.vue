@@ -51,7 +51,7 @@
 import axios from 'axios';
 
 export default {
-  name: 'HelloWorld',
+  name: 'Movies',
   data() {
     return {
       currentView: 'search',
