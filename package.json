@@ -1,5 +1,5 @@
 {
-  "name": "switch-challenge",
+  "name": "omdb-vue-api",
   "version": "0.1.0",
   "private": true,
   "scripts": {
