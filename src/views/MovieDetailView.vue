@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import SearchBar from '../components/SearchBar.vue'
+import MovieDetail from '../components/MovieDetail.vue'
 </script>
 
 <template>
   <main>
-    <SearchBar />
+    <MovieDetail />
   </main>
 </template>
