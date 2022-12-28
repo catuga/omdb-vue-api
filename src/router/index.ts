@@ -2,6 +2,7 @@ import HomeView from '../views/HomeView.vue'
 import MovieDetailView from '@/views/MovieDetailView.vue'
 import MoviesListView from '@/views/MoviesListView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
+import store from '@/store'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,5 +24,10 @@ const router = createRouter({
     }
   ]
 })
+
+router.beforeEach((to, from, next) => {
+  store.commit('setRoute', to);
+  next();
+});
 
 export default router

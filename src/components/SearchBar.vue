@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, watch } from "vue";
+import { computed, defineComponent } from "vue";
 import store from "@/store";
 
 export default defineComponent({
